@@ -18,7 +18,7 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
         <Layout>
-          <SEO title="Sites & Wonders" />
+          <SEO title="Sites and Wonders" />
           <Banner />
           <KeyFeature />
           <ServiceSection />
@@ -26,8 +26,9 @@ export default function IndexPage() {
           <CoreFeature />
           <WorkFlow />
           <Package />
-          <TeamSection />
+         {/*  <TeamSection />*/}
           <TestimonialCard />
+          
         </Layout>
     </ThemeProvider>
   );
