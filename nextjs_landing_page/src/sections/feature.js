@@ -49,7 +49,7 @@ export default function Feature() {
     <Container>
       <SectionHeader
       slogan="Quality Service"
-      title="Amazing Customer Service"
+      title="Empower Your Online Presence with Tailored Solutions"
       />
       <Grid>
         {data.map((item) =>(

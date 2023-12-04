@@ -11,14 +11,17 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-          Your Professional Source for Online Innovation!
+          Unlock Your Online Potential with Our Expert Web Development Services!
           </Heading>
           <Text as="p" variant="heroSecondary">
-          We provide clients with a wide range of web development services that help bring their vision to life. Our work is done with the utmost attention to detail, and is focused on a beautiful, 
-fully functional, and user friendly final result! 
+          Welcome to a world of innovation where your vision effortlessly comes to life. Our professional team specializes in creating beautiful, functional, and user-friendly websites. Whether you need a custom design, responsive solutions, or SEO-friendly development, we're your trusted partner. Count on our experts for standout mobile-friendly websites and creative solutions that keep you ahead in the online market. Elevate your online presence with us – your reliable source for unparalleled innovation! 
           </Text>
-          <a href="https://www.honeybook.com/widget/sitesand_wonders_202329/cf_id/61a12b848872a5078ecf9ff0">
-          <Button variant="primary">Explore</Button> 
+          {/* <a href="https://www.honeybook.com/widget/sitesand_wonders_202329/cf_id/61a12b848872a5078ecf9ff0">
+          <Button variant="primary">Book Now</Button> 
+          </a>*/}
+          
+          <a href="https://calendly.com/sitesanddwonders/web-development-consultation">
+          <Button variant="primary">Book Now</Button> 
           </a>
         </Box>
         <Box sx={styles.banner.imageBox}>
