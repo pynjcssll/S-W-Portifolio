@@ -14,7 +14,12 @@ const packages = {
       id: 0,
       name: 'Silver',
       description: 'Landing Page With 3-4 section max.',
-      buttonText: 'Book Now',
+      buttonText: (
+        <a href="https://calendly.com/sitesanddwonders/basic" target="_blank" rel="noopener noreferrer">
+          Book Now
+        </a>
+      ),
+     
       priceWithUnit: '$1,499.99',
       points: [
         {
@@ -53,7 +58,11 @@ const packages = {
       id: 1,
       name: 'Gold',
       description: 'Business Website',
-      buttonText: 'Book Now',
+      buttonText:  (
+        <a href="https://calendly.com/sitesanddwonders/30min" target="_blank" rel="noopener noreferrer">
+          Book Now
+        </a>
+      ),
       priceWithUnit: '$2,999',
       anotherOption: 'Get 20% off for referral',
       points: [
@@ -94,7 +103,11 @@ const packages = {
       name: 'Diamond',
       description: 'Custom functionality and integrations',
       priceWithUnit: '$4,999',
-      buttonText: 'Book Now',
+      buttonText:  (
+        <a href="https://calendly.com/sitesanddwonders/premium" target="_blank" rel="noopener noreferrer">
+          Book Now
+        </a>
+      ),
       anotherOption: 'Get 20% off for referral',
       points: [
     
@@ -173,7 +186,11 @@ const packages = {
       id: 1,
       name: 'StartUp | Basic',
       description: 'For Small teams or office',
-      buttonText: 'Start Now',
+      buttonText:  (
+        <a href="https://calendly.com/sitesanddwonders/maintenance" target="_blank" rel="noopener noreferrer">
+          Start Now
+        </a>
+      ),
       priceWithUnit: '$99 / month',
       points: [
         {
@@ -215,7 +232,11 @@ const packages = {
       name: 'Advanced',
       description: 'For Enterprise business',
       priceWithUnit: '$499 / month',
-      buttonText: 'Start Now',
+      buttonText:   (
+        <a href="https://calendly.com/sitesanddwonders/maintenance" target="_blank" rel="noopener noreferrer">
+          Start Now
+        </a>
+      ),
      // anotherOption: 'Or Start 10 Days trail',
       points: [
         {
@@ -259,7 +280,11 @@ const packages = {
       name: 'SMM | Web Maintenance',
       description: 'For pro level developers',
       priceWithUnit: '$999 / month',
-      buttonText: 'Create account',
+      buttonText:   (
+        <a href="https://calendly.com/sitesanddwonders/maintenance" target="_blank" rel="noopener noreferrer">
+          Start Now
+        </a>
+      ),
       //anotherOption: 'Initial $99 Deposit',
       points: [
         {

@@ -11,7 +11,7 @@ const data = {
   description:
     'High Quality Web Development at Affordable Rates. We love collaborating with our passionate clients and building them custom websites that are fully functional and rich with useful features.',
   btnName: 'Get Started',
-  btnURL: '#',
+  btnURL: 'https://calendly.com/sitesanddwonders/getting-started',
 };
 
 export default function CoreFeature() {
